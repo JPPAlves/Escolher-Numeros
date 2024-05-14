@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-psd/3d-rendering-beauty-banner_23-2150159871.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 0, 179);
+}
+
+.list_columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.column {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.number-container {
+    margin-bottom: 10px; /* Espaçamento entre os números */
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #e50099f7;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff94d4;
+}
+
+/* Media queries for responsiveness (optional) */
+@media only screen and (max-width: 768px) {
+    .column {
+        width: 100%; /* Colunas ocupam 100% da largura em telas menores */
+    }
+}
